@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form UI</title>
+</head>
+<body>
+    <div class="container">
+
+        <!--Left Form-->
+        <div class="form-section">
+            <div class="input-group">
+                    
+            <label>Full Name</label>
+                    
+            <input type="text" placeholder="What should we call you?">
+            </div>
+
+            <div class="input-group">
+                <label>Email</label>
+                <input type="email" value="johndoe.com" class="error">
+                <div class="error-msg">Email is already taken</div>
+            </div>
+
+            <div class="input-group">
+                <label>Enter Password</label>
+                <div class="password-wrapper">
+                    <input type="password" placeholder="XXXXXXXX">
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>Confirm Password</label>
+                <div class="password-wrapper">
+                    <input type="password" placeholder="XXXXXXXX">
+                </div>
+            </div>
+
+            <button class="btn">Update Profile</button>
+        </div>
+        
+        <!--right side-->
+
+        <div class="profile-sidebar">
+            <div class="progress-circle">
+                <div class="circle-bg"></div>
+                <div class="circle" style="border-color:rgb(25, 25, 26);
+                clip-path: polygon(50% 50%, 50% 0%, 100% 0%, 100% 50%);"></div>
+                <div class="percentage">65%</div>
+            </div>
+
+          <div class="profile-completeness">Profile Completeness</div>
+            <div class="steps">
+                <ul>
+                    <li class="complete">Create Account</li>
+                    <li class="complete">Update Roadmap Progress</li>
+                    <li class="complete">Setup Public Profile</li>
+                    <li class="black">Complete Your First Project</li>
+                    <li class="black">Invite Your Friends</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
